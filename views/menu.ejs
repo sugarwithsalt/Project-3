@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Boba Shop Menu</title>
+</head>
+<body>
+    <h1>Boba Shop Menu</h1>
+
+    <% for (var i in menuitems) { %>
+        <p>
+            Menu ID: <%= menuitems[i].menuitemid %>,
+            Name: <%= menuitems[i].menuitemname %>,
+            Category: <%= menuitems[i].category %>
+        </p>
+    <% } %>
+
+</body>
+</html>

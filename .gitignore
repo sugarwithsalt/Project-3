@@ -1,0 +1,6 @@
+.DS_Store
+*.class
+/.vscode
+run.sh
+node_modules/
+.env
